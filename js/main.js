@@ -16,5 +16,6 @@ $(document).ready(function () {
   });
   $(".header__links").click(function (e) {
     $(".header__burger , .header__nav, .header__menu").removeClass("active");
+    $("body").removeClass("lock");
   });
 });
