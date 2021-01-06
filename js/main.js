@@ -10,8 +10,11 @@ $(document).ready(function () {
 
 // ================ burger =====================================
 $(document).ready(function () {
-  $(".header__burger").click(function(event){
+  $(".header__burger").click(function (event) {
     $(".header__burger , .header__nav, .header__menu").toggleClass("active");
     $("body").toggleClass("lock");
+  });
+  $(".header__links").click(function (e) {
+    $(".header__burger , .header__nav, .header__menu").removeClass("active");
   });
 });
