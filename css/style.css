@@ -405,10 +405,12 @@ select {
   line-height: 24px;
   text-transform: uppercase;
   padding: 26px 45px;
+  transition:0.5s;
 }
 
 .mail__button:hover {
   background-color: rgba(100, 194, 158, 0.7);
+  transition:0.5s;
 }
 
 .mail__input {
